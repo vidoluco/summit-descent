@@ -1,0 +1,397 @@
+{
+  "id": "carpazi",
+  "name": "Carpazi, Bâlea",
+  "names": {
+    "en": "Carpathians, Bâlea",
+    "it": "Carpazi, Bâlea"
+  },
+  "country": "RO",
+  "summit": {
+    "name": "Vârful Văiuga",
+    "names": {
+      "en": "Văiuga Peak",
+      "it": "Monte Văiuga"
+    },
+    "elevation": 2443,
+    "lat": 45.6037,
+    "lon": 24.6259,
+    "searchRadius": 200
+  },
+  "dem": {
+    "tiles": [
+      "N45_E024"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      45.56,
+      24.5,
+      45.75,
+      24.66
+    ],
+    "start": [
+      45.6033,
+      24.6172
+    ],
+    "prefer": [
+      "Bâlea",
+      "Cârțișoara"
+    ],
+    "note": "west face of Vârful Văiuga to the outlet of Lacul Bâlea (2034 m), the source of the Bâlea (Cârțișoara); the summit's own fall line runs north into Căldarea Văiugii and joins the Bâlea at the Văiuga stream confluence (about 1730 m, on stage 1); out of the cirque, over Cascada Bâlea, past Bâlea Cascadă (1234 m), then Valea Bâlii towards Cârțișoara"
+  },
+  "osm": {
+    "bbox": [
+      45.55,
+      24.45,
+      45.8,
+      24.7
+    ],
+    "featuresBbox": [
+      45.596,
+      24.572,
+      45.672,
+      24.634
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 3000,
+    "glaciers": false
+  },
+  "short": {
+    "spine": {
+      "maxKm": 14,
+      "sigma": 35,
+      "pathSigma": 60
+    },
+    "width": {
+      "km": [
+        [
+          -0.8,
+          4.5
+        ],
+        [
+          0.3,
+          4.6
+        ],
+        [
+          3.7,
+          5.3
+        ],
+        [
+          6,
+          6.2
+        ],
+        [
+          8.2,
+          7
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 3000,
+      "slope": 0.035,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1900,
+      "gap": 300,
+      "perGroup": 1,
+      "pick": "packed"
+    },
+    "iceAbove": 2100,
+    "stagesNote": "packed: the greedy pick takes the waterfall and the stretch below Bâlea Cascadă and leaves only the flat beech bottom (6 %) for stage 4; packed from the summit every stage is 11 % or steeper"
+  },
+  "requireShortcut": false,
+  "waterfalls": [
+    {
+      "name": "Cascada Bâlea",
+      "lat": 45.6264,
+      "lon": 24.61227,
+      "steps": [
+        22,
+        20,
+        18
+      ],
+      "note": "60 m, the highest stepped waterfall in Romania, on the glacial step out of the Bâlea cirque (OSM node; docs/mountains/carpazi.md); the 30 m DEM smooths it into a 55-66 % ramp"
+    }
+  ],
+  "defaultBiome": "montane",
+  "landmarks": [
+    {
+      "id": "summit",
+      "km": [
+        -1,
+        1.5
+      ],
+      "biome": "alpine",
+      "names": [
+        [
+          "Văiuga e Lacul Bâlea",
+          "Văiuga and Lake Bâlea"
+        ]
+      ]
+    },
+    {
+      "id": "cascada",
+      "km": [
+        1.5,
+        3.8
+      ],
+      "biome": "subalpine",
+      "names": [
+        [
+          "Cascada Bâlea",
+          "Bâlea Waterfall"
+        ]
+      ]
+    },
+    {
+      "id": "balea-cascada",
+      "km": [
+        3.8,
+        6.05
+      ],
+      "biome": "montane",
+      "names": [
+        [
+          "Cabana Bâlea Cascadă",
+          "Bâlea Cascadă chalet"
+        ]
+      ]
+    },
+    {
+      "id": "valea-balii",
+      "km": [
+        6.05,
+        9.5
+      ],
+      "biome": "beech",
+      "names": [
+        [
+          "Valea Bâlii",
+          "Bâlea Valley"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "alpine": {
+      "palette": [
+        "snow",
+        "rock",
+        "scree",
+        "alpine-grass"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "subalpine": {
+      "palette": [
+        "scree",
+        "alpine-grass",
+        "dwarf-pine",
+        "rhododendron"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    },
+    "montane": {
+      "palette": [
+        "meadow",
+        "spruce",
+        "gravel",
+        "rock"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    },
+    "beech": {
+      "palette": [
+        "beech",
+        "spruce",
+        "meadow",
+        "gravel"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "carpathian-chamois": {
+        "alt": [
+          1400,
+          2550
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 3
+      },
+      "brown-bear": {
+        "alt": [
+          600,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1
+      },
+      "lynx": {
+        "alt": [
+          600,
+          1800
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1
+      },
+      "wolf": {
+        "alt": [
+          600,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 2
+      },
+      "red-deer": {
+        "alt": [
+          600,
+          1900
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 2
+      },
+      "sheep": {
+        "alt": [
+          1400,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.35,
+        "max": 2
+      },
+      "sheepdog": {
+        "alt": [
+          1400,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.35,
+        "max": 1
+      },
+      "eagle": {
+        "alt": [
+          800,
+          2550
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Bâlea Lac",
+      "lat": 45.60441,
+      "lon": 24.61449
+    },
+    {
+      "name": "Bâlea Cascadă",
+      "lat": 45.63641,
+      "lon": 24.60663
+    },
+    {
+      "name": "Cârțișoara",
+      "lat": 45.7263,
+      "lon": 24.5745
+    }
+  ],
+  "finish": {
+    "names": {
+      "it": "Valea Bâlii, verso Cârțișoara",
+      "en": "Bâlea Valley, towards Cârțișoara"
+    }
+  },
+  "look": {
+    "treeline": 1750,
+    "treeSpecies": [
+      "spruce",
+      "silver-fir",
+      "beech",
+      "mugo-pine",
+      "juniper",
+      "rhododendron"
+    ],
+    "ground": [
+      {
+        "type": "forest",
+        "alt": [
+          600,
+          1750
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          1550,
+          2200
+        ]
+      },
+      {
+        "type": "meadow",
+        "alt": [
+          1700,
+          2300
+        ]
+      },
+      {
+        "type": "scree",
+        "alt": [
+          1900,
+          2443
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          2000,
+          2443
+        ]
+      }
+    ],
+    "waterType": "clear",
+    "sources": [
+      "Făgăraș: spruce up to about 1800 m, dwarf pine (Pinus mugo) in the subalpine belt 1600-2200 m (https://www.romania-insider.com/fagaras-subalpine-spruce-forests, https://www.romania-insider.com/discover/nature-fagaras-dwarf-pine-romania)",
+      "src/render/themes/carpazi.js: beech with silver fir below about 1300 m, Rhododendron myrtifolium and juniper above the treeline"
+    ]
+  }
+}

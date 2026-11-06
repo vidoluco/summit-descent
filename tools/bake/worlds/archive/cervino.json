@@ -1,0 +1,301 @@
+{
+  "id": "cervino",
+  "name": "Alpi svizzere, Cervino",
+  "names": {
+    "en": "Swiss Alps, Matterhorn",
+    "it": "Alpi svizzere, Cervino"
+  },
+  "country": "CH",
+  "summit": {
+    "name": "Matterhorn",
+    "names": {
+      "en": "Matterhorn",
+      "it": "Cervino"
+    },
+    "elevation": 4478,
+    "lat": 45.9763,
+    "lon": 7.6586,
+    "searchRadius": 300
+  },
+  "dem": {
+    "tiles": [
+      "N45_E007",
+      "N46_E007"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      45.93,
+      7.62,
+      46.05,
+      7.8
+    ],
+    "start": [
+      45.97297,
+      7.68559
+    ],
+    "prefer": [
+      "Furggbach",
+      "Gornera",
+      "Matter Vispa"
+    ],
+    "note": "summit path down the east face to the head of the Furggbach under the Furgg glacier, then Furggbach, Gornera and Matter Vispa to Zermatt"
+  },
+  "osm": {
+    "bbox": [
+      45.9,
+      7.55,
+      46.12,
+      7.88
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 2500,
+    "glaciers": true,
+    "nameTags": [
+      "name"
+    ]
+  },
+  "short": {
+    "spine": {
+      "maxKm": 12,
+      "sigma": 50,
+      "pathSigma": 60
+    },
+    "floor": {
+      "window": 2000,
+      "slope": 0.02,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1600,
+      "gap": 300,
+      "perGroup": 2
+    },
+    "iceAbove": 3300
+  },
+  "requireShortcut": false,
+  "defaultBiome": "subalpine",
+  "landmarks": [
+    {
+      "id": "east-face",
+      "alt": [
+        3300,
+        4500
+      ],
+      "biome": "highAlpine",
+      "names": [
+        [
+          "Parete est del Cervino",
+          "Matterhorn east face"
+        ]
+      ]
+    },
+    {
+      "id": "furgg",
+      "alt": [
+        2500,
+        3300
+      ],
+      "biome": "moraine",
+      "names": [
+        [
+          "Ghiacciaio del Furgg",
+          "Furgg Glacier"
+        ],
+        [
+          "Conca del Furgg",
+          "Furgg basin"
+        ]
+      ]
+    },
+    {
+      "id": "furggbach",
+      "alt": [
+        1900,
+        2500
+      ],
+      "biome": "subalpine",
+      "names": [
+        [
+          "Furggbach",
+          "Furggbach torrent"
+        ]
+      ]
+    },
+    {
+      "id": "zermatt",
+      "alt": [
+        1500,
+        1900
+      ],
+      "biome": "montane",
+      "names": [
+        [
+          "Verso Zermatt",
+          "Down to Zermatt"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "highAlpine": {
+      "palette": [
+        "snow",
+        "ice",
+        "rock",
+        "crevasse-blue"
+      ],
+      "hw": [
+        13,
+        16
+      ],
+      "bank": 3.5,
+      "bankW": 16
+    },
+    "moraine": {
+      "palette": [
+        "moraine",
+        "scree",
+        "ice",
+        "rock"
+      ],
+      "hw": [
+        13,
+        17
+      ],
+      "bank": 3.5,
+      "bankW": 16
+    },
+    "subalpine": {
+      "palette": [
+        "scree",
+        "alpine-grass",
+        "dwarf-pine",
+        "larch"
+      ],
+      "hw": [
+        13,
+        17
+      ],
+      "bank": 4,
+      "bankW": 16
+    },
+    "montane": {
+      "palette": [
+        "meadow",
+        "spruce",
+        "larch",
+        "gravel"
+      ],
+      "hw": [
+        14,
+        18
+      ],
+      "bank": 3.5,
+      "bankW": 20
+    },
+    "glacier": {
+      "palette": [
+        "ice",
+        "snow",
+        "crevasse-blue",
+        "moraine"
+      ],
+      "hw": [
+        14,
+        18
+      ],
+      "bank": 3,
+      "bankW": 18
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "ibex": {
+        "alt": [
+          2000,
+          3600
+        ],
+        "off": [
+          2.5,
+          6
+        ]
+      },
+      "chamois": {
+        "alt": [
+          1200,
+          3000
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 3
+      },
+      "marmot": {
+        "alt": [
+          1600,
+          2800
+        ],
+        "off": [
+          1.5,
+          4.5
+        ]
+      },
+      "lammergeier": {
+        "alt": [
+          1500,
+          4500
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1
+      },
+      "ptarmigan": {
+        "alt": [
+          1900,
+          3000
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2
+      },
+      "brown-cow": {
+        "alt": [
+          1500,
+          2400
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.3
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Zermatt",
+      "lat": 46.0207,
+      "lon": 7.7491
+    },
+    {
+      "name": "Täsch",
+      "lat": 46.0686,
+      "lon": 7.7772
+    }
+  ]
+}

@@ -1,0 +1,491 @@
+{
+  "id": "everest",
+  "name": "Everest, versante Nepal",
+  "names": {
+    "en": "Everest, Nepal side",
+    "it": "Everest, versante Nepal"
+  },
+  "country": "NP",
+  "finish": {
+    "names": {
+      "it": "Sotto Thukla, verso Pheriche",
+      "en": "Below Thukla, above Pheriche"
+    }
+  },
+  "summit": {
+    "name": "Mount Everest",
+    "names": {
+      "en": "Mount Everest",
+      "it": "Everest"
+    },
+    "elevation": 8849,
+    "lat": 27.9881,
+    "lon": 86.925,
+    "searchRadius": 300
+  },
+  "dem": {
+    "tiles": [
+      "N27_E086",
+      "N28_E086"
+    ]
+  },
+  "descent": {
+    "kind": "dem",
+    "via": [
+      [
+        27.988,
+        86.9215
+      ],
+      [
+        27.9862,
+        86.918
+      ],
+      [
+        27.9835,
+        86.915
+      ],
+      [
+        27.9805,
+        86.912
+      ],
+      [
+        27.9781,
+        86.9079
+      ],
+      [
+        27.9789,
+        86.9051
+      ],
+      [
+        27.98,
+        86.9015
+      ],
+      [
+        27.9812,
+        86.8999
+      ],
+      [
+        27.9831,
+        86.891
+      ],
+      [
+        27.9864,
+        86.8813
+      ],
+      [
+        27.9918,
+        86.8746
+      ],
+      [
+        27.9972,
+        86.8718
+      ],
+      [
+        28.0018,
+        86.8657
+      ],
+      [
+        28.0024,
+        86.8627
+      ],
+      [
+        28.0026,
+        86.8528
+      ],
+      [
+        27.94,
+        86.81
+      ],
+      [
+        27.9225,
+        86.804
+      ],
+      [
+        27.9125,
+        86.8075
+      ],
+      [
+        27.9025,
+        86.815
+      ],
+      [
+        27.8925,
+        86.8175
+      ],
+      [
+        27.88,
+        86.817
+      ]
+    ],
+    "to": [
+      27.8575,
+      86.795
+    ],
+    "note": "the fall line of the south-west face into the Western Cwm, down the Khumbu Icefall and the Khumbu Glacier past Base Camp, Gorak Shep and Lobuche, off the glacier snout over the Thukla moraine and down the Khumbu Khola to the Pheriche flats (DEM least-cost line through via points on the real thalweg; OSM has no stream on the ice)"
+  },
+  "osm": {
+    "bbox": [
+      27.83,
+      86.74,
+      28.03,
+      86.96
+    ],
+    "featuresBbox": [
+      27.907,
+      86.794,
+      28.009,
+      86.933
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet",
+      "locality"
+    ],
+    "placeMaxDistance": 1600,
+    "glaciers": true,
+    "nameTags": [
+      "name:en",
+      "name"
+    ],
+    "placeExclude": [
+      "First Step",
+      "Second Step",
+      "Third Step",
+      "希拉里台阶"
+    ],
+    "placeExcludeNote": "the Steps are on the Tibetan north-east ridge; the Hillary Step has no English name in OSM"
+  },
+  "short": {
+    "spine": {
+      "maxKm": 32,
+      "sigma": 50,
+      "pathSigma": 60
+    },
+    "width": {
+      "km": [
+        [
+          0,
+          4.5
+        ],
+        [
+          5.3,
+          4.8
+        ],
+        [
+          9.2,
+          5.2
+        ],
+        [
+          20.7,
+          6.4
+        ],
+        [
+          22.6,
+          7
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 2000,
+      "slope": 0.04,
+      "after": 21000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1800,
+      "gap": 300,
+      "perGroup": 1
+    },
+    "iceAbove": 4900
+  },
+  "requireShortcut": false,
+  "defaultBiome": "glacier",
+  "landmarks": [
+    {
+      "id": "summit-pyramid",
+      "alt": [
+        7000,
+        8900
+      ],
+      "biome": "highAlpine",
+      "names": [
+        [
+          "Piramide sommitale",
+          "Summit pyramid"
+        ]
+      ]
+    },
+    {
+      "id": "western-cwm",
+      "alt": [
+        6000,
+        7000
+      ],
+      "biome": "glacier",
+      "names": [
+        [
+          "Valle del Silenzio",
+          "Western Cwm"
+        ]
+      ]
+    },
+    {
+      "id": "icefall",
+      "alt": [
+        5300,
+        6000
+      ],
+      "biome": "icefall",
+      "names": [
+        [
+          "Seraccata del Khumbu",
+          "Khumbu Icefall"
+        ]
+      ]
+    },
+    {
+      "id": "khumbu-glacier",
+      "alt": [
+        4850,
+        5300
+      ],
+      "biome": "moraine",
+      "names": [
+        [
+          "Ghiacciaio del Khumbu",
+          "Khumbu Glacier"
+        ]
+      ]
+    },
+    {
+      "id": "thukla",
+      "alt": [
+        3800,
+        4850
+      ],
+      "biome": "khumbu",
+      "names": [
+        [
+          "Lobuche Khola a Thukla",
+          "Lobuche Khola at Thukla"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "highAlpine": {
+      "palette": [
+        "snow",
+        "ice",
+        "rock",
+        "crevasse-blue"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "glacier": {
+      "palette": [
+        "ice",
+        "snow",
+        "crevasse-blue",
+        "moraine"
+      ],
+      "bank": 1.0,
+      "bankW": 18
+    },
+    "icefall": {
+      "palette": [
+        "seracs",
+        "ice",
+        "snow",
+        "crevasse-blue"
+      ],
+      "bank": 1.2,
+      "bankW": 14
+    },
+    "moraine": {
+      "palette": [
+        "moraine",
+        "scree",
+        "ice",
+        "rock"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    },
+    "khumbu": {
+      "palette": [
+        "moraine",
+        "juniper",
+        "yak-pasture",
+        "mani-stones"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "chough": {
+        "alt": [
+          3500,
+          8200
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2,
+        "note": "alpine chough, follows climbers to 8,000 m"
+      },
+      "yak": {
+        "alt": [
+          3000,
+          5400
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.3,
+        "note": "domestic yaks and yak-cattle crosses graze the Khumbu summer pastures and carry loads to Gorak Shep"
+      },
+      "snow-leopard": {
+        "alt": [
+          3000,
+          5100
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1,
+        "note": "Ale et al. 2007 (Oryx 41:89): grazing land and shrubland at 3,000-5,000 m in Sagarmatha NP; never on the Icefall"
+      },
+      "himalayan-tahr": {
+        "alt": [
+          3000,
+          4400
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 2,
+        "note": "Shrestha 2007 (Nepal Journal of Science and Technology): recorded at 3,685-4,380 m in Sagarmatha NP, mean 4,059 m; the course never goes that low (stage 4 ends at 4,425 m), so it does not spawn here"
+      },
+      "red-panda": {
+        "alt": [
+          2200,
+          3700
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 1,
+        "note": "lower forests only (3,000-3,200 m preferred in Sagarmatha NP); the course never goes below the Pheriche flats, so it does not spawn here"
+      },
+      "danphe": {
+        "alt": [
+          2400,
+          4100
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2,
+        "note": "Himalayan monal, national bird of Nepal: in Sagarmatha NP found only at 3,250-4,021 m, in pine forest (Paudel et al. 2023, Banko Janakari 33:1); no forest on the course (4,425 m and up), so it does not spawn here"
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Everest Base Camp",
+      "lat": 28.0026,
+      "lon": 86.8528
+    },
+    {
+      "name": "Gorak Shep",
+      "lat": 27.9806,
+      "lon": 86.829
+    },
+    {
+      "name": "Lobuche",
+      "lat": 27.9486,
+      "lon": 86.8104
+    },
+    {
+      "name": "Pheriche",
+      "lat": 27.8946,
+      "lon": 86.8195
+    },
+    {
+      "name": "Pangboche",
+      "lat": 27.8572,
+      "lon": 86.7944
+    }
+  ],
+  "look": {
+    "treeline": null,
+    "treeSpecies": [
+      "juniper",
+      "rhododendron"
+    ],
+    "ground": [
+      {
+        "type": "meadow",
+        "alt": [
+          4300,
+          4800
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          4300,
+          5000
+        ]
+      },
+      {
+        "type": "moraine",
+        "alt": [
+          4650,
+          5400
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          5000,
+          8849
+        ]
+      },
+      {
+        "type": "glacier",
+        "alt": [
+          5300,
+          8000
+        ]
+      },
+      {
+        "type": "snow",
+        "alt": [
+          5600,
+          8849
+        ]
+      }
+    ],
+    "waterType": "glacial",
+    "sources": [
+      "Sagarmatha National Park: treeline at 3800-4000 m, above it Juniperus and Rhododendron anthopogon, R. lepidotum shrubs, grassland and dwarf shrubs 4500-5500 m (https://en.wikipedia.org/wiki/Sagarmatha_National_Park)",
+      "docs/mountains/everest.md: Khumbu Glacier and Icefall (OSM outlines), debris-covered tongue and lateral moraines to the snout, the Khumbu Khola below Thukla"
+    ]
+  }
+}

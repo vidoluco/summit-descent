@@ -1,0 +1,432 @@
+{
+  "id": "antelao",
+  "name": "Dolomiti, Antelao",
+  "names": {
+    "en": "Dolomites, Antelao",
+    "it": "Dolomiti, Antelao"
+  },
+  "country": "IT",
+  "summit": {
+    "name": "Antelao",
+    "names": {
+      "en": "Antelao",
+      "it": "Antelao"
+    },
+    "elevation": 3264,
+    "lat": 46.4519,
+    "lon": 12.2618,
+    "searchRadius": 120
+  },
+  "finish": {
+    "names": {
+      "it": "Torrente Molinà a Calalzo",
+      "en": "Molinà torrent at Calalzo"
+    }
+  },
+  "dem": {
+    "tiles": [
+      "N46_E012"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      46.42,
+      12.24,
+      46.49,
+      12.42
+    ],
+    "start": [
+      46.462,
+      12.2645
+    ],
+    "summitVia": [
+      [
+        46.4555,
+        12.264
+      ]
+    ],
+    "prefer": [
+      "Torrente Oten",
+      "Torrente Molinà",
+      "Piave"
+    ],
+    "note": "north face of the Antelao onto the Ghiacciaio Inferiore, its meltwater north under Rifugio Galassi into the head of the Val d'Oten, over the Cascata delle Pile, past the Capanna degli Alpini, down the gravel bed of the Val d'Oten to Praciadelan, then the Torrente Molinà gorge past Rizzios to Calalzo di Cadore and the Piave at Lago di Centro Cadore"
+  },
+  "osm": {
+    "bbox": [
+      46.4,
+      12.22,
+      46.5,
+      12.45
+    ],
+    "featuresBbox": [
+      46.442,
+      12.252,
+      46.488,
+      12.393
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 2500,
+    "glaciers": true
+  },
+  "short": {
+    "spine": {
+      "maxKm": 16,
+      "sigma": 35,
+      "pathSigma": 60
+    },
+    "width": {
+      "km": [
+        [
+          -2.5,
+          4.5
+        ],
+        [
+          0,
+          4.5
+        ],
+        [
+          2.6,
+          5
+        ],
+        [
+          5,
+          5.8
+        ],
+        [
+          7.2,
+          6.3
+        ],
+        [
+          11.6,
+          7.2
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 2000,
+      "slope": 0.03,
+      "after": 3000
+    },
+    "stages": {
+      "count": 5,
+      "length": 1700,
+      "gap": 300,
+      "perGroup": 1,
+      "end": "floor"
+    },
+    "iceAbove": 2400
+  },
+  "requireShortcut": false,
+  "defaultBiome": "montane",
+  "landmarks": [
+    {
+      "id": "antelao",
+      "km": [
+        -3,
+        0.3
+      ],
+      "biome": "alpine",
+      "names": [
+        [
+          "Parete nord e Ghiacciaio Inferiore dell'Antelao",
+          "Antelao north face and Lower Glacier"
+        ]
+      ]
+    },
+    {
+      "id": "pile",
+      "km": [
+        0.3,
+        3.3
+      ],
+      "biome": "gorge",
+      "names": [
+        [
+          "Val d'Oten e Cascata delle Pile",
+          "Val d'Oten and the Pile Waterfall"
+        ]
+      ]
+    },
+    {
+      "id": "oten",
+      "km": [
+        3.3,
+        6.9
+      ],
+      "biome": "montane",
+      "names": [
+        [
+          "Ghiaie della Val d'Oten verso Praciadelan",
+          "Val d'Oten gravel bed towards Praciadelan"
+        ]
+      ]
+    },
+    {
+      "id": "molina",
+      "km": [
+        6.9,
+        9.6
+      ],
+      "biome": "forest",
+      "names": [
+        [
+          "Torrente Molinà sotto Praciadelan",
+          "Molinà torrent below Praciadelan"
+        ]
+      ]
+    },
+    {
+      "id": "calalzo",
+      "km": [
+        9.6,
+        16
+      ],
+      "biome": "valley",
+      "names": [
+        [
+          "Torrente Molinà a Calalzo",
+          "Molinà torrent at Calalzo"
+        ]
+      ]
+    }
+  ],
+  "weather": {
+    "sun": "calalzo",
+    "rain": "oten"
+  },
+  "branches": {
+    "shortcut": [
+      "molina"
+    ],
+    "safe": [
+      "oten"
+    ]
+  },
+  "biomes": {
+    "alpine": {
+      "palette": [
+        "snow",
+        "ice",
+        "limestone",
+        "scree"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "gorge": {
+      "palette": [
+        "scree",
+        "dwarf-pine",
+        "larch",
+        "whitewater"
+      ],
+      "bank": 2.0,
+      "bankW": 12
+    },
+    "montane": {
+      "palette": [
+        "gravel",
+        "larch",
+        "spruce",
+        "meadow"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    },
+    "forest": {
+      "palette": [
+        "spruce",
+        "beech",
+        "limestone",
+        "whitewater"
+      ],
+      "bank": 1.4,
+      "bankW": 14
+    },
+    "valley": {
+      "palette": [
+        "meadow",
+        "spruce",
+        "gravel",
+        "beech"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "ibex": {
+        "alt": [
+          1800,
+          3264
+        ],
+        "off": [
+          2,
+          5
+        ],
+        "max": 2
+      },
+      "chamois": {
+        "alt": [
+          900,
+          2800
+        ],
+        "off": [
+          2,
+          5
+        ],
+        "max": 3
+      },
+      "marmot": {
+        "alt": [
+          1500,
+          2300
+        ],
+        "off": [
+          1,
+          3.5
+        ],
+        "max": 1
+      },
+      "hare": {
+        "alt": [
+          1400,
+          2600
+        ],
+        "off": [
+          1,
+          3.5
+        ],
+        "max": 1
+      },
+      "chough": {
+        "alt": [
+          1500,
+          3264
+        ],
+        "off": [
+          1,
+          3.5
+        ],
+        "bird": true,
+        "max": 2
+      },
+      "eagle": {
+        "alt": [
+          700,
+          3264
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1
+      },
+      "red-deer": {
+        "alt": [
+          700,
+          1900
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 2
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Calalzo di Cadore",
+      "lat": 46.4467,
+      "lon": 12.3804
+    },
+    {
+      "name": "Rizzios",
+      "lat": 46.4556,
+      "lon": 12.3768
+    },
+    {
+      "name": "Pieve di Cadore",
+      "lat": 46.4287,
+      "lon": 12.3753
+    }
+  ],
+  "look": {
+    "treeline": 1950,
+    "treeSpecies": [
+      "spruce",
+      "larch",
+      "beech",
+      "mugo-pine",
+      "grey-alder",
+      "willow"
+    ],
+    "ground": [
+      {
+        "type": "forest",
+        "alt": [
+          730,
+          1950
+        ]
+      },
+      {
+        "type": "gravel-bed",
+        "alt": [
+          800,
+          1450
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          1100,
+          2300
+        ]
+      },
+      {
+        "type": "scree",
+        "alt": [
+          1100,
+          2700
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          2000,
+          3264
+        ]
+      },
+      {
+        "type": "glacier",
+        "alt": [
+          2420,
+          2900
+        ]
+      },
+      {
+        "type": "snow",
+        "alt": [
+          2700,
+          3264
+        ]
+      }
+    ],
+    "waterType": "clear",
+    "glacialAbove": 2420,
+    "sources": [
+      "docs/mountains/antelao.md, \"Vegetation by altitude band\" and \"Glaciers\": Natura 2000 IT3230081 Gruppo Antelao - Marmarole - Sorapis standard data form, CAI Treviso sheet, OSM glacier outlines (Ghiacciaio Inferiore down to about 2410 m on the DEM)"
+    ]
+  }
+}

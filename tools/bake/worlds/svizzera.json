@@ -1,0 +1,424 @@
+{
+  "id": "svizzera",
+  "name": "Alpi svizzere, Cervino per Zmutt",
+  "names": {
+    "en": "Swiss Alps, Matterhorn by Zmutt",
+    "it": "Alpi svizzere, Cervino per Zmutt"
+  },
+  "country": "CH",
+  "summit": {
+    "name": "Matterhorn",
+    "names": {
+      "en": "Matterhorn",
+      "it": "Cervino"
+    },
+    "elevation": 4478,
+    "lat": 45.9763,
+    "lon": 7.6586,
+    "searchRadius": 300
+  },
+  "finish": {
+    "names": {
+      "en": "Zermatt",
+      "it": "Zermatt"
+    }
+  },
+  "dem": {
+    "tiles": [
+      "N45_E007",
+      "N46_E007"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      45.93,
+      7.62,
+      46.05,
+      7.8
+    ],
+    "start": [
+      45.9918,
+      7.6646
+    ],
+    "summitVia": [
+      [
+        45.9862,
+        7.6612
+      ]
+    ],
+    "prefer": [
+      "Zmuttbach",
+      "Matter Vispa"
+    ],
+    "note": "north face onto the Matterhorngletscher, its meltwater stream from the snout (about 2800 m) down to the Zmuttbach below the Zmutt glacier tongue, past Stafel, the Zmutt reservoir and the hamlet of Zmutt, then the Zmutt gorge to the Gornera confluence in Zermatt"
+  },
+  "osm": {
+    "bbox": [
+      45.9,
+      7.55,
+      46.12,
+      7.88
+    ],
+    "featuresBbox": [
+      45.969,
+      7.648,
+      46.019,
+      7.748
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 1200,
+    "glaciers": true,
+    "nameTags": [
+      "name"
+    ]
+  },
+  "short": {
+    "spine": {
+      "maxKm": 12,
+      "sigma": 45,
+      "pathSigma": 130
+    },
+    "width": {
+      "km": [
+        [
+          -3,
+          4.5
+        ],
+        [
+          0,
+          4.6
+        ],
+        [
+          2.4,
+          5.4
+        ],
+        [
+          5.9,
+          6
+        ],
+        [
+          7.8,
+          6.6
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 2000,
+      "slope": 0.02,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1700,
+      "gap": 300,
+      "perGroup": 2
+    },
+    "iceAbove": 3300
+  },
+  "requireShortcut": false,
+  "defaultBiome": "subalpine",
+  "landmarks": [
+    {
+      "id": "north-face",
+      "alt": [
+        3300,
+        4500
+      ],
+      "biome": "highAlpine",
+      "names": [
+        [
+          "Parete nord del Cervino",
+          "Matterhorn north face"
+        ]
+      ]
+    },
+    {
+      "id": "matterhorngletscher",
+      "alt": [
+        2200,
+        3300
+      ],
+      "biome": "moraine",
+      "names": [
+        [
+          "Fronte e morene del ghiacciaio del Cervino",
+          "Matterhorn Glacier snout and moraines"
+        ],
+        [
+          "Morene del ghiacciaio del Cervino",
+          "Matterhorn Glacier moraines"
+        ]
+      ]
+    },
+    {
+      "id": "stafel",
+      "alt": [
+        1960,
+        2200
+      ],
+      "biome": "subalpine",
+      "names": [
+        [
+          "Zmuttbach a Stafel",
+          "Zmuttbach at Stafel"
+        ]
+      ]
+    },
+    {
+      "id": "zmutt-zermatt",
+      "alt": [
+        1600,
+        1960
+      ],
+      "biome": "gorge",
+      "names": [
+        [
+          "Da Zmutt a Zermatt",
+          "Zmutt down to Zermatt"
+        ],
+        [
+          "Zmuttbach sopra Zermatt",
+          "Zmuttbach above Zermatt"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "highAlpine": {
+      "palette": [
+        "snow",
+        "ice",
+        "rock",
+        "crevasse-blue"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "glacier": {
+      "palette": [
+        "ice",
+        "snow",
+        "crevasse-blue",
+        "moraine"
+      ],
+      "bank": 1.0,
+      "bankW": 18
+    },
+    "moraine": {
+      "palette": [
+        "moraine",
+        "scree",
+        "ice",
+        "rock"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    },
+    "subalpine": {
+      "palette": [
+        "scree",
+        "alpine-grass",
+        "dwarf-pine",
+        "larch"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    },
+    "gorge": {
+      "palette": [
+        "rock",
+        "larch",
+        "moss",
+        "whitewater"
+      ],
+      "bank": 5,
+      "bankW": 6,
+      "slot": {
+        "depth": 35,
+        "km": [
+          5.6,
+          7
+        ],
+        "ramp": 300,
+        "note": "GLO-30 fills the Zmutt gorge: its first 1000 m ran 32-49 m above swissALTI3D (test/bake-svizzera.test.mjs); the cut ends at the flat below Zmutt, where the DEM is within 15 m"
+      }
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "ptarmigan": {
+        "alt": [
+          1900,
+          3000
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2,
+        "note": "rock ptarmigan, alpine heath and boulder fields"
+      },
+      "ibex": {
+        "alt": [
+          1600,
+          3000
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "note": "alpine ibex, 1600-3000 m around Zermatt (zermatt.ch); capped at 3000 m so none stands on the Matterhorngletscher ice below the north face"
+      },
+      "chamois": {
+        "alt": [
+          1200,
+          3000
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 3
+      },
+      "marmot": {
+        "alt": [
+          1600,
+          2800
+        ],
+        "off": [
+          1.5,
+          4.5
+        ]
+      },
+      "lammergeier": {
+        "alt": [
+          1500,
+          4500
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1,
+        "note": "bearded vulture, a breeding pair in the Zermatt area since about 2012"
+      },
+      "chough": {
+        "alt": [
+          1600,
+          4500
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2,
+        "note": "alpine chough, breeds up to about 3000 m, follows climbers to the summit"
+      },
+      "herens": {
+        "alt": [
+          1600,
+          2300
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.3,
+        "note": "Hérens (Eringer) cows, the Valais breed, on the alps of Stafel and Zmutt in summer; the Stafel alpine dairy makes the cheese of the cows grazing round it (zermatt.swiss)"
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Zermatt",
+      "lat": 46.0207,
+      "lon": 7.7491
+    },
+    {
+      "name": "Zmutt",
+      "lat": 46.0065,
+      "lon": 7.7171
+    },
+    {
+      "name": "Stafel",
+      "lat": 46.0058,
+      "lon": 7.6899
+    }
+  ],
+  "look": {
+    "treeline": 2300,
+    "treeSpecies": [
+      "larch",
+      "arolla-pine",
+      "spruce",
+      "juniper",
+      "alpenrose"
+    ],
+    "ground": [
+      {
+        "type": "forest",
+        "alt": [
+          1600,
+          2300
+        ]
+      },
+      {
+        "type": "meadow",
+        "alt": [
+          1600,
+          2600
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          1700,
+          2600
+        ]
+      },
+      {
+        "type": "moraine",
+        "alt": [
+          2180,
+          2900
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          2400,
+          4478
+        ]
+      },
+      {
+        "type": "glacier",
+        "alt": [
+          2850,
+          4000
+        ]
+      },
+      {
+        "type": "snow",
+        "alt": [
+          3000,
+          4478
+        ]
+      }
+    ],
+    "waterType": "glacial",
+    "sources": [
+      "Zermatt has the highest closed forest limit of the Alps, over 2300 m: arolla pine, larch, spruce below 2200 m (https://light.zermatt.ch/en/Media/Magazinbeitraege/Highest-trees-in-Switzerland)",
+      "docs/mountains/svizzera.md: Matterhorngletscher outline ends at 2826 m in OSM, forefield moraines, the Zmuttbach is glacial meltwater"
+    ]
+  }
+}

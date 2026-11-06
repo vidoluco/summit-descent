@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Summit Descent</title>
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><path d='M32 3C39 18 54 28 54 40A22 22 0 0 1 10 40C10 28 25 18 32 3Z' fill='%234aa6f2' stroke='%231d1f2b' stroke-width='4' stroke-linejoin='round'/><path d='M19 37C21 30 24 25 27 20' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' opacity='.85'/></svg>">
+<style>
+  html, body { margin: 0; height: 100%; background: #0a1420; color: #eef4fa; overflow: hidden;
+    font-family: "Helvetica Neue", system-ui, sans-serif; }
+  #game { display: block; position: fixed; inset: 0; width: 100vw; height: 100vh; }
+  /* the cloud bank the drops fly through at the top of the flight, while the next stage is swapped in */
+  #veil { position: fixed; inset: 0; opacity: 0; pointer-events: none;
+    background: radial-gradient(ellipse at 50% 55%, #fffaf8 0%, #fde9ee 55%, #f3d6e4 100%); }
+  #boot { position: fixed; inset: 0; display: flex; align-items: center; justify-content: center;
+    font-size: 18px; letter-spacing: 0.2em; text-transform: uppercase; opacity: 0.8; pointer-events: none; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="veil"></div>
+<div id="boot">Summit Descent</div>
+<script>
+  // back from the mountain vote on another world (src/main.js HANDOFF): its summit painting while it loads
+  try {
+    const h = JSON.parse(sessionStorage.getItem('summit-descent.handoff') || 'null');
+    const w = new URLSearchParams(location.search).get('world');
+    if (h && h.world === w && /^[a-z0-9_-]+$/.test(w)) {
+      const b = document.getElementById('boot');
+      b.style.background = `#0a1420 url(assets/backdrops/cards/${w}.jpg) center / cover no-repeat`;
+      b.style.alignItems = 'flex-end';
+      b.style.paddingBottom = '6vh';
+      b.style.textShadow = '0 2px 12px rgba(0, 0, 0, 0.6)';
+      b.style.opacity = '1';
+    }
+  } catch {}
+</script>
+<script type="module" src="game.js"></script>
+</body>
+</html>

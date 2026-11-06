@@ -1,0 +1,200 @@
+{
+  "id": "semeru",
+  "name": "Indonesia, Semeru",
+  "names": {
+    "en": "Indonesia, Mount Semeru",
+    "it": "Indonesia, Semeru"
+  },
+  "country": "ID",
+  "summit": {
+    "name": "Gunung Semeru",
+    "names": {
+      "en": "Mount Semeru (Mahameru)",
+      "it": "Monte Semeru (Mahameru)"
+    },
+    "elevation": 3676,
+    "lat": -8.1077,
+    "lon": 112.9224,
+    "searchRadius": 400
+  },
+  "dem": {
+    "tiles": [
+      "S09_E112"
+    ]
+  },
+  "descent": {
+    "kind": "dem",
+    "maxKm": 14,
+    "note": "steepest-descent flow line from the summit, south-west flank"
+  },
+  "osm": {
+    "bbox": [
+      -8.3,
+      112.78,
+      -8.02,
+      113.02
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 3000,
+    "glaciers": false,
+    "nameTags": [
+      "name:en",
+      "name"
+    ]
+  },
+  "short": {
+    "spine": {
+      "maxKm": 12,
+      "sigma": 50,
+      "pathSigma": 60
+    },
+    "floor": {
+      "window": 3000,
+      "slope": 0.04,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1700,
+      "gap": 300,
+      "perGroup": 1
+    },
+    "iceAbove": 99999
+  },
+  "requireShortcut": false,
+  "defaultBiome": "tropical",
+  "landmarks": [
+    {
+      "id": "cone",
+      "alt": [
+        2900,
+        3800
+      ],
+      "biome": "volcanic",
+      "names": [
+        [
+          "Cono del Mahameru",
+          "Mahameru summit cone"
+        ]
+      ]
+    },
+    {
+      "id": "upper-slopes",
+      "alt": [
+        2000,
+        2900
+      ],
+      "biome": "cloudForest",
+      "names": [
+        [
+          "Pendici alte e casuarine",
+          "Upper slopes and casuarinas"
+        ]
+      ]
+    },
+    {
+      "id": "forest",
+      "alt": [
+        1200,
+        2000
+      ],
+      "biome": "tropical",
+      "names": [
+        [
+          "Foresta pluviale montana",
+          "Montane rainforest"
+        ]
+      ]
+    },
+    {
+      "id": "lower",
+      "alt": [
+        0,
+        1200
+      ],
+      "biome": "tropical",
+      "names": [
+        [
+          "Verso valle",
+          "Down to the valley"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "volcanic": {
+      "palette": [
+        "ash",
+        "lava-rock",
+        "scree",
+        "sulphur"
+      ],
+      "hw": [
+        13,
+        16
+      ],
+      "bank": 3.5,
+      "bankW": 16
+    },
+    "cloudForest": {
+      "palette": [
+        "casuarina",
+        "fern",
+        "moss",
+        "ash"
+      ],
+      "hw": [
+        13,
+        17
+      ],
+      "bank": 4,
+      "bankW": 16
+    },
+    "tropical": {
+      "palette": [
+        "rainforest",
+        "bamboo",
+        "fern",
+        "volcanic-sand"
+      ],
+      "hw": [
+        14,
+        18
+      ],
+      "bank": 3.5,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 4,
+    "kinds": {
+      "lutung": {
+        "alt": [
+          0,
+          3000
+        ],
+        "off": [
+          1.5,
+          4.5
+        ]
+      },
+      "javan-hawk-eagle": {
+        "alt": [
+          0,
+          3000
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1
+      }
+    }
+  },
+  "placesFallback": []
+}

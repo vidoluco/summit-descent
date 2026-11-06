@@ -1,0 +1,397 @@
+{
+  "version": 1,
+  "worlds": [
+    {
+      "id": "dolomiti",
+      "names": {
+        "en": "Dolomites, Monte Peralba",
+        "it": "Dolomiti, Monte Peralba"
+      },
+      "country": "IT",
+      "mode": "short",
+      "summit": {
+        "name": "Monte Peralba",
+        "names": {
+          "en": "Monte Peralba",
+          "it": "Monte Peralba"
+        },
+        "altitude": 2694,
+        "demAltitude": 2685,
+        "lat": 46.6297,
+        "lon": 12.72
+      },
+      "finish": {
+        "names": {
+          "it": "Forra dell'Acquatona",
+          "en": "Acquatona Gorge"
+        },
+        "altitude": 1001
+      },
+      "floor": {
+        "altitude": 926
+      },
+      "stages": 4,
+      "stageNames": [
+        {
+          "it": "Vetta e nevaio del Peralba",
+          "en": "Peralba summit and snowfield"
+        },
+        {
+          "it": "Alta Val Sesis",
+          "en": "Upper Val Sesis"
+        },
+        {
+          "it": "Bassa Val Sesis",
+          "en": "Lower Val Sesis"
+        },
+        {
+          "it": "Forra dell'Acquatona",
+          "en": "Acquatona Gorge"
+        }
+      ],
+      "length": 6800,
+      "drop": 1677,
+      "estimatedSeconds": 202,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 191.8,
+      "hash": "d48766ba5b0a3f86",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "antelao",
+      "names": {
+        "en": "Dolomites, Antelao",
+        "it": "Dolomiti, Antelao"
+      },
+      "country": "IT",
+      "mode": "short",
+      "summit": {
+        "name": "Antelao",
+        "names": {
+          "en": "Antelao",
+          "it": "Antelao"
+        },
+        "altitude": 3264,
+        "demAltitude": 3134,
+        "lat": 46.45226,
+        "lon": 12.26063
+      },
+      "finish": {
+        "names": {
+          "it": "Torrente Molinà a Calalzo",
+          "en": "Molinà torrent at Calalzo"
+        },
+        "altitude": 730
+      },
+      "floor": {
+        "altitude": 731
+      },
+      "stages": 5,
+      "stageNames": [
+        {
+          "it": "Parete nord e Ghiacciaio Inferiore dell'Antelao",
+          "en": "Antelao north face and Lower Glacier"
+        },
+        {
+          "it": "Val d'Oten e Cascata delle Pile",
+          "en": "Val d'Oten and the Pile Waterfall"
+        },
+        {
+          "it": "Ghiaie della Val d'Oten verso Praciadelan",
+          "en": "Val d'Oten gravel bed towards Praciadelan"
+        },
+        {
+          "it": "Torrente Molinà sotto Praciadelan",
+          "en": "Molinà torrent below Praciadelan"
+        },
+        {
+          "it": "Torrente Molinà a Calalzo",
+          "en": "Molinà torrent at Calalzo"
+        }
+      ],
+      "length": 8500,
+      "drop": 2396,
+      "estimatedSeconds": 256,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 241.6,
+      "hash": "a39dcce49465d7ce",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "svizzera",
+      "names": {
+        "en": "Swiss Alps, Matterhorn by Zmutt",
+        "it": "Alpi svizzere, Cervino per Zmutt"
+      },
+      "country": "CH",
+      "mode": "short",
+      "summit": {
+        "name": "Matterhorn",
+        "names": {
+          "en": "Matterhorn",
+          "it": "Cervino"
+        },
+        "altitude": 4478,
+        "demAltitude": 4330,
+        "lat": 45.97666,
+        "lon": 7.65666
+      },
+      "finish": {
+        "names": {
+          "en": "Zermatt",
+          "it": "Zermatt"
+        },
+        "altitude": 1637
+      },
+      "floor": {
+        "altitude": 1632
+      },
+      "stages": 4,
+      "stageNames": [
+        {
+          "it": "Parete nord del Cervino",
+          "en": "Matterhorn north face"
+        },
+        {
+          "it": "Fronte e morene del ghiacciaio del Cervino",
+          "en": "Matterhorn Glacier snout and moraines"
+        },
+        {
+          "it": "Zmuttbach a Stafel",
+          "en": "Zmuttbach at Stafel"
+        },
+        {
+          "it": "Da Zmutt a Zermatt",
+          "en": "Zmutt down to Zermatt"
+        }
+      ],
+      "length": 6800,
+      "drop": 2685,
+      "estimatedSeconds": 180,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 169.9,
+      "hash": "58f1aa68c551fd0e",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "carpazi",
+      "names": {
+        "en": "Carpathians, Bâlea",
+        "it": "Carpazi, Bâlea"
+      },
+      "country": "RO",
+      "mode": "short",
+      "summit": {
+        "name": "Vârful Văiuga",
+        "names": {
+          "en": "Văiuga Peak",
+          "it": "Monte Văiuga"
+        },
+        "altitude": 2443,
+        "demAltitude": 2432,
+        "lat": 45.60388,
+        "lon": 24.62616
+      },
+      "finish": {
+        "names": {
+          "it": "Valea Bâlii, verso Cârțișoara",
+          "en": "Bâlea Valley, towards Cârțișoara"
+        },
+        "altitude": 696
+      },
+      "floor": {
+        "altitude": 666
+      },
+      "stages": 4,
+      "stageNames": [
+        {
+          "it": "Văiuga e Lacul Bâlea",
+          "en": "Văiuga and Lake Bâlea"
+        },
+        {
+          "it": "Cascada Bâlea",
+          "en": "Bâlea Waterfall"
+        },
+        {
+          "it": "Cabana Bâlea Cascadă",
+          "en": "Bâlea Cascadă chalet"
+        },
+        {
+          "it": "Valea Bâlii",
+          "en": "Bâlea Valley"
+        }
+      ],
+      "length": 7600,
+      "drop": 1721,
+      "estimatedSeconds": 209,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 198.5,
+      "hash": "3daac0fa48579f88",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "everest",
+      "names": {
+        "en": "Everest, Nepal side",
+        "it": "Everest, versante Nepal"
+      },
+      "country": "NP",
+      "mode": "short",
+      "summit": {
+        "name": "Mount Everest",
+        "names": {
+          "en": "Mount Everest",
+          "it": "Everest"
+        },
+        "altitude": 8849,
+        "demAltitude": 8737,
+        "lat": 27.98909,
+        "lon": 86.92551
+      },
+      "finish": {
+        "names": {
+          "it": "Sotto Thukla, verso Pheriche",
+          "en": "Below Thukla, above Pheriche"
+        },
+        "altitude": 4425
+      },
+      "floor": {
+        "altitude": 4321
+      },
+      "stages": 4,
+      "stageNames": [
+        {
+          "it": "Piramide sommitale",
+          "en": "Summit pyramid"
+        },
+        {
+          "it": "Valle del Silenzio",
+          "en": "Western Cwm"
+        },
+        {
+          "it": "Seraccata del Khumbu",
+          "en": "Khumbu Icefall"
+        },
+        {
+          "it": "Lobuche Khola a Thukla",
+          "en": "Lobuche Khola at Thukla"
+        }
+      ],
+      "length": 7200,
+      "drop": 4304,
+      "estimatedSeconds": 183,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 172.7,
+      "hash": "48a7e3921a318d56",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "k2",
+      "names": {
+        "en": "K2, south-east face and Godwin-Austen",
+        "it": "K2, parete sud-est e Godwin-Austen"
+      },
+      "country": "PK",
+      "mode": "short",
+      "summit": {
+        "name": "K2",
+        "names": {
+          "en": "K2",
+          "it": "K2"
+        },
+        "altitude": 8611,
+        "demAltitude": 8570,
+        "lat": 35.88079,
+        "lon": 76.51252
+      },
+      "finish": {
+        "names": {
+          "it": "Ghiacciaio Godwin-Austen ai piedi del K2",
+          "en": "Godwin-Austen Glacier at the foot of K2"
+        },
+        "altitude": 5038
+      },
+      "floor": {
+        "altitude": 4962
+      },
+      "stages": 3,
+      "stageNames": [
+        {
+          "it": "Vetta, Collo di bottiglia e Spalla",
+          "en": "Summit, Bottleneck and Shoulder"
+        },
+        {
+          "it": "Parete sud-est sotto la Spalla",
+          "en": "South-east face below the Shoulder"
+        },
+        {
+          "it": "Piede della parete sud-est",
+          "en": "Foot of the south-east face"
+        }
+      ],
+      "length": 5400,
+      "drop": 3528,
+      "estimatedSeconds": 133,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 126,
+      "hash": "c34521e3dac33c05",
+      "simHash": "048569e3176ef2e8"
+    },
+    {
+      "id": "indonesia",
+      "names": {
+        "en": "Indonesia, Mount Kerinci",
+        "it": "Indonesia, Kerinci"
+      },
+      "country": "ID",
+      "mode": "short",
+      "summit": {
+        "name": "Gunung Kerinci",
+        "names": {
+          "en": "Mount Kerinci",
+          "it": "Monte Kerinci"
+        },
+        "altitude": 3805,
+        "demAltitude": 3774,
+        "lat": -1.69751,
+        "lon": 101.26443
+      },
+      "finish": {
+        "names": {
+          "en": "Bengkolan Dua fields",
+          "it": "Campi di Bengkolan Dua"
+        },
+        "altitude": 1475
+      },
+      "floor": {
+        "altitude": 1464
+      },
+      "stages": 4,
+      "stageNames": [
+        {
+          "it": "Vetta del Kerinci e Shelter 3",
+          "en": "Kerinci summit and Shelter 3"
+        },
+        {
+          "it": "Alto Sungai Kering, foresta di muschi",
+          "en": "Upper Sungai Kering mossy forest"
+        },
+        {
+          "it": "Margine della foresta di Kerinci Seblat",
+          "en": "Kerinci Seblat forest edge"
+        },
+        {
+          "it": "Campi di Bengkolan Dua",
+          "en": "Bengkolan Dua fields"
+        }
+      ],
+      "length": 7600,
+      "drop": 2287,
+      "estimatedSeconds": 199,
+      "estimate": "two bots in the sim",
+      "raceSeconds": 188.9,
+      "hash": "dbde3481f4a98dbf",
+      "simHash": "048569e3176ef2e8"
+    }
+  ]
+}

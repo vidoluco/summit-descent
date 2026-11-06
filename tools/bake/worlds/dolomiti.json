@@ -1,0 +1,121 @@
+{
+  "id": "dolomiti",
+  "name": "Dolomiti, Monte Peralba",
+  "names": { "en": "Dolomites, Monte Peralba", "it": "Dolomiti, Monte Peralba" },
+  "country": "IT",
+  "summit": { "name": "Monte Peralba", "names": { "en": "Monte Peralba", "it": "Monte Peralba" }, "elevation": 2694, "lat": 46.6297, "lon": 12.7166, "searchRadius": 900 },
+  "dem": { "tiles": ["N45_E011", "N45_E012", "N46_E011", "N46_E012"] },
+  "descent": { "kind": "osm-relation", "name": "Piave", "bbox": [45.40, 11.70, 46.75, 12.95] },
+  "osm": {
+    "bbox": [45.40, 11.70, 46.75, 12.95],
+    "featuresBbox": [46.563, 12.625, 46.637, 12.736],
+    "places": ["Sappada", "Santo Stefano di Cadore", "Pieve di Cadore", "Longarone", "Belluno", "Feltre", "Valdobbiadene", "Nervesa della Battaglia", "Ponte di Piave", "San Donà di Piave", "Eraclea", "Cortellazzo"],
+    "extraNodes": ["node[\"natural\"=\"peak\"][\"name\"=\"Monte Peralba\"]", "node[\"natural\"=\"spring\"][\"name\"~\"Piave\",i]"],
+    "glaciers": false,
+    "geofabrik": "https://download.geofabrik.de/europe/italy/nord-est-latest.osm.pbf"
+  },
+  "short": {
+    "spine": { "maxKm": 40, "sigma": 35, "pathSigma": 60 },
+    "width": { "km": [[-1, 4.5], [0, 4.5], [2, 4.8], [7.5, 5.6], [13, 6.4], [16, 7]], "wiggle": 0.1 },
+    "floor": { "window": 3000, "slope": 0.0125, "after": 1500 },
+    "stages": { "count": 4, "length": 1700, "gap": 300, "perGroup": 2 },
+    "pointStep": 10,
+    "extend": 200,
+    "corridor": 250,
+    "gridStep": 4,
+    "blur": 10,
+    "backdropStep": 60,
+    "backdropMargin": 6000,
+    "bedAcross": 28,
+    "iceAbove": 1900
+  },
+  "landmarks": [
+    { "id": "summit", "km": [-1, 0.5], "biome": "alpine", "names": [["Vetta e nevaio del Peralba", "Peralba summit and snowfield"]] },
+    { "id": "sesis", "km": [0.5, 7.4], "biome": "subalpine", "names": [["Alta Val Sesis", "Upper Val Sesis"], ["Bassa Val Sesis", "Lower Val Sesis"]] },
+    { "id": "sappada", "km": [7.4, 13], "biome": "montane", "names": [["Piave a Sappada", "Piave at Sappada"]] },
+    { "id": "acquatona", "km": [13, 15], "biome": "gorge", "names": [["Forra dell'Acquatona", "Acquatona Gorge"]] },
+    { "id": "comelico", "km": [15, 40], "biome": "montane", "names": [["Piave verso Santo Stefano", "Piave towards Santo Stefano"]] }
+  ],
+  "biomes": {
+    "alpine": { "palette": ["snow", "rock", "scree", "alpine-grass"], "bank": 1.0, "bankW": 16 },
+    "subalpine": { "palette": ["scree", "alpine-grass", "dwarf-pine", "larch"], "bank": 1.2, "bankW": 16 },
+    "montane": { "palette": ["meadow", "spruce", "larch", "gravel"], "bank": 1.4, "bankW": 20 },
+    "gorge": { "palette": ["limestone", "dark-conifer", "moss", "whitewater"], "bank": 4, "bankW": 6, "slot": { "depth": 25, "note": "the Orrido dell'Acquatona is about 50 m deep and narrower than a DEM cell (docs/mountains/dolomiti.md)" } }
+  },
+  "animals": {
+    "perStage": 6,
+    "kinds": {
+      "marmot": { "alt": [1500, 2700], "off": [1, 3.5], "max": 2 },
+      "hare": { "alt": [1300, 2800], "off": [1, 3.5], "max": 1 },
+      "chough": { "alt": [1600, 3000], "off": [1, 3.5], "bird": true, "max": 2 },
+      "chamois": { "alt": [1000, 2600], "off": [2, 5], "max": 3 },
+      "eagle": { "alt": [1000, 3000], "off": [12, 30], "bird": true, "max": 1 },
+      "cow": { "alt": [1200, 1800], "off": [2.5, 6], "maxSlope": 0.3, "note": "summer pastures of Cima Sappada and the Val Sesis, none in the Acquatona gorge" }
+    }
+  },
+  "placesFallback": [
+    { "name": "Sappada", "lat": 46.5667, "lon": 12.6833 },
+    { "name": "Santo Stefano di Cadore", "lat": 46.5547, "lon": 12.5481 },
+    { "name": "Pieve di Cadore", "lat": 46.4269, "lon": 12.3711 },
+    { "name": "Longarone", "lat": 46.2667, "lon": 12.3 },
+    { "name": "Belluno", "lat": 46.14, "lon": 12.2167 }
+  ],
+  "look": {
+    "treeline": 1900,
+    "treeSpecies": [
+      "spruce",
+      "larch",
+      "mugo-pine",
+      "alpenrose"
+    ],
+    "ground": [
+      {
+        "type": "forest",
+        "alt": [
+          900,
+          1900
+        ]
+      },
+      {
+        "type": "meadow",
+        "alt": [
+          1200,
+          2150
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          1500,
+          2250
+        ]
+      },
+      {
+        "type": "scree",
+        "alt": [
+          1900,
+          2694
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          2000,
+          2694
+        ]
+      },
+      {
+        "type": "snow",
+        "alt": [
+          2250,
+          2694
+        ]
+      }
+    ],
+    "waterType": "clear",
+    "sources": [
+      "Natura 2000 IT3230006 Val Visdende - Monte Peralba - Quaternaà: 9410 spruce forests, 9420 larch and stone pine forests, 4060 alpine heaths (https://eunis.eea.europa.eu/sites/IT3230006)",
+      "src/render/themes/dolomiti.js: spruce with larch to about 1900-2000 m, mugo pine and alpenrose on the screes to about 2200 m"
+    ]
+  }
+}

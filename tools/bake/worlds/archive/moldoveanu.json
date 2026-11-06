@@ -1,0 +1,279 @@
+{
+  "id": "moldoveanu",
+  "name": "Carpazi, Moldoveanu",
+  "names": {
+    "en": "Carpathians, Moldoveanu",
+    "it": "Carpazi, Moldoveanu"
+  },
+  "country": "RO",
+  "summit": {
+    "name": "Vârful Moldoveanu",
+    "names": {
+      "en": "Moldoveanu Peak",
+      "it": "Monte Moldoveanu"
+    },
+    "elevation": 2544,
+    "lat": 45.6003,
+    "lon": 24.7364,
+    "searchRadius": 300
+  },
+  "dem": {
+    "tiles": [
+      "N45_E024"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      45.58,
+      24.68,
+      45.8,
+      24.8
+    ],
+    "start": [
+      45.61344,
+      24.74975
+    ],
+    "prefer": [
+      "Viștea Mare",
+      "Viștea"
+    ],
+    "note": "summit path down the north face of the Făgăraș to the head of the Viștea Mare, then the Viștea Mare towards Viștea de Sus"
+  },
+  "osm": {
+    "bbox": [
+      45.55,
+      24.62,
+      45.82,
+      24.85
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 3000,
+    "glaciers": false
+  },
+  "short": {
+    "spine": {
+      "maxKm": 16,
+      "sigma": 50,
+      "pathSigma": 60
+    },
+    "floor": {
+      "window": 3000,
+      "slope": 0.035,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1700,
+      "gap": 300,
+      "perGroup": 1
+    },
+    "iceAbove": 2300
+  },
+  "requireShortcut": false,
+  "defaultBiome": "montane",
+  "landmarks": [
+    {
+      "id": "summit",
+      "alt": [
+        2000,
+        2600
+      ],
+      "biome": "alpine",
+      "names": [
+        [
+          "Vetta del Moldoveanu",
+          "Moldoveanu summit"
+        ]
+      ]
+    },
+    {
+      "id": "upper-vistea",
+      "alt": [
+        1450,
+        2000
+      ],
+      "biome": "subalpine",
+      "names": [
+        [
+          "Alta Valea Viștea Mare",
+          "Upper Viștea Mare valley"
+        ]
+      ]
+    },
+    {
+      "id": "lower-vistea",
+      "alt": [
+        950,
+        1450
+      ],
+      "biome": "montane",
+      "names": [
+        [
+          "Bassa Valea Viștea Mare",
+          "Lower Viștea Mare valley"
+        ]
+      ]
+    },
+    {
+      "id": "beech",
+      "alt": [
+        400,
+        950
+      ],
+      "biome": "beech",
+      "names": [
+        [
+          "Faggete verso Viștea",
+          "Beech woods towards Viștea"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "alpine": {
+      "palette": [
+        "snow",
+        "rock",
+        "scree",
+        "alpine-grass"
+      ],
+      "hw": [
+        13,
+        16
+      ],
+      "bank": 3.5,
+      "bankW": 16
+    },
+    "subalpine": {
+      "palette": [
+        "scree",
+        "alpine-grass",
+        "dwarf-pine",
+        "larch"
+      ],
+      "hw": [
+        13,
+        17
+      ],
+      "bank": 4,
+      "bankW": 16
+    },
+    "montane": {
+      "palette": [
+        "meadow",
+        "spruce",
+        "larch",
+        "gravel"
+      ],
+      "hw": [
+        14,
+        18
+      ],
+      "bank": 3.5,
+      "bankW": 20
+    },
+    "beech": {
+      "palette": [
+        "beech",
+        "spruce",
+        "meadow",
+        "gravel"
+      ],
+      "hw": [
+        14,
+        18
+      ],
+      "bank": 3.5,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "carpathian-chamois": {
+        "alt": [
+          1500,
+          2550
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 3
+      },
+      "brown-bear": {
+        "alt": [
+          500,
+          2000
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1
+      },
+      "lynx": {
+        "alt": [
+          500,
+          1700
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1
+      },
+      "wolf": {
+        "alt": [
+          500,
+          2100
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 2
+      },
+      "red-deer": {
+        "alt": [
+          500,
+          1800
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 2
+      },
+      "sheep": {
+        "alt": [
+          1300,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.35
+      },
+      "sheepdog": {
+        "alt": [
+          1300,
+          2200
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "maxSlope": 0.35,
+        "max": 1
+      }
+    }
+  },
+  "placesFallback": []
+}

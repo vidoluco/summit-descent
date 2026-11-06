@@ -1,0 +1,327 @@
+{
+  "id": "indonesia",
+  "name": "Indonesia, Kerinci",
+  "names": {
+    "en": "Indonesia, Mount Kerinci",
+    "it": "Indonesia, Kerinci"
+  },
+  "country": "ID",
+  "summit": {
+    "name": "Gunung Kerinci",
+    "names": {
+      "en": "Mount Kerinci",
+      "it": "Monte Kerinci"
+    },
+    "elevation": 3805,
+    "lat": -1.6967,
+    "lon": 101.2656,
+    "searchRadius": 500
+  },
+  "finish": {
+    "names": {
+      "en": "Bengkolan Dua fields",
+      "it": "Campi di Bengkolan Dua"
+    }
+  },
+  "dem": {
+    "tiles": [
+      "S02_E101"
+    ]
+  },
+  "descent": {
+    "kind": "osm-network",
+    "bbox": [
+      -1.8,
+      101.2,
+      -1.65,
+      101.36
+    ],
+    "start": [
+      -1.7011,
+      101.2659
+    ],
+    "prefer": [
+      "Sungai Kering"
+    ],
+    "note": "Sungai Kering from under the south-east crater rim, past Shelter 3 and Shelter 2, through the Kerinci Seblat forest (park edge at about 1800 m) to the fields of Bengkolan Dua (Kecamatan Gunung Tujuh), where it meets the Batang Sangir plain"
+  },
+  "osm": {
+    "bbox": [
+      -1.85,
+      101.18,
+      -1.62,
+      101.38
+    ],
+    "featuresBbox": [
+      -1.758,
+      101.257,
+      -1.69,
+      101.32
+    ],
+    "placeKinds": [
+      "town",
+      "village",
+      "hamlet"
+    ],
+    "placeMaxDistance": 2500,
+    "glaciers": false,
+    "nameTags": [
+      "name"
+    ]
+  },
+  "short": {
+    "spine": {
+      "maxKm": 14,
+      "sigma": 40,
+      "pathSigma": 60
+    },
+    "width": {
+      "km": [
+        [
+          -0.5,
+          4.5
+        ],
+        [
+          1.5,
+          4.7
+        ],
+        [
+          3.7,
+          5.3
+        ],
+        [
+          5.8,
+          6.2
+        ],
+        [
+          7.9,
+          7
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 3000,
+      "slope": 0.025,
+      "after": 3000
+    },
+    "stages": {
+      "count": 4,
+      "length": 1900,
+      "gap": 150,
+      "perGroup": 1
+    },
+    "iceAbove": 99999
+  },
+  "requireShortcut": false,
+  "defaultBiome": "rainforest",
+  "landmarks": [
+    {
+      "id": "summit",
+      "alt": [
+        2750,
+        3900
+      ],
+      "biome": "volcanic",
+      "names": [
+        [
+          "Vetta del Kerinci e Shelter 3",
+          "Kerinci summit and Shelter 3"
+        ]
+      ]
+    },
+    {
+      "id": "upper-kering",
+      "alt": [
+        2000,
+        2750
+      ],
+      "biome": "cloudForest",
+      "names": [
+        [
+          "Alto Sungai Kering, foresta di muschi",
+          "Upper Sungai Kering mossy forest"
+        ]
+      ]
+    },
+    {
+      "id": "kerinci-seblat",
+      "alt": [
+        1620,
+        2000
+      ],
+      "biome": "rainforest",
+      "names": [
+        [
+          "Margine della foresta di Kerinci Seblat",
+          "Kerinci Seblat forest edge"
+        ]
+      ]
+    },
+    {
+      "id": "bengkolan-dua",
+      "alt": [
+        0,
+        1620
+      ],
+      "biome": "farmland",
+      "names": [
+        [
+          "Campi di Bengkolan Dua",
+          "Bengkolan Dua fields"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "volcanic": {
+      "palette": [
+        "ash",
+        "lava-rock",
+        "scree",
+        "sulphur",
+        "heath"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "cloudForest": {
+      "palette": [
+        "moss",
+        "fern",
+        "tree-fern",
+        "heath"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    },
+    "rainforest": {
+      "palette": [
+        "rainforest",
+        "fern",
+        "bamboo",
+        "moss"
+      ],
+      "bank": 1.4,
+      "bankW": 18
+    },
+    "farmland": {
+      "palette": [
+        "vegetable-fields",
+        "volcanic-sand",
+        "fern",
+        "rainforest"
+      ],
+      "bank": 1.4,
+      "bankW": 20
+    }
+  },
+  "animals": {
+    "perStage": 6,
+    "kinds": {
+      "sumatran-tiger": {
+        "alt": [
+          0,
+          3200
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 1
+      },
+      "sumatran-striped-rabbit": {
+        "alt": [
+          1800,
+          2300
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "max": 1
+      },
+      "malayan-tapir": {
+        "alt": [
+          1800,
+          2020
+        ],
+        "off": [
+          1.5,
+          4.5
+        ]
+      },
+      "salvadoris-pheasant": {
+        "alt": [
+          1800,
+          2200
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "max": 1
+      },
+      "wreathed-hornbill": {
+        "alt": [
+          0,
+          2560
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1
+      }
+    }
+  },
+  "placesFallback": [],
+  "look": {
+    "treeline": 2950,
+    "treeSpecies": [
+      "lower-montane-forest",
+      "upper-montane-mossy-forest",
+      "tree-fern",
+      "understory",
+      "cinnamon",
+      "ericaceous-scrub"
+    ],
+    "ground": [
+      {
+        "type": "farmland",
+        "alt": [
+          1400,
+          1810
+        ]
+      },
+      {
+        "type": "forest",
+        "alt": [
+          1750,
+          2950
+        ]
+      },
+      {
+        "type": "scrub",
+        "alt": [
+          2950,
+          3250
+        ]
+      },
+      {
+        "type": "volcanic-ash",
+        "alt": [
+          3250,
+          3805
+        ]
+      }
+    ],
+    "waterType": "tropical",
+    "sources": [
+      "docs/mountains/indonesia.md, \"Course\": ESA WorldCover 2021 within 300 m of the line (bare ash above about 3200 m, forest below 3150 m, crops below the Kerinci Seblat park edge at 1804 m), OSM landuse=farmland; the Kayu Aro tea gardens lie west of the line, off the course",
+      "Ohsawa, Nainggolan, Tanaka and Anwar 1985, Altitudinal zonation of forest vegetation on Mount Kerinci, Sumatra, J. Trop. Ecol. 1: 193-216: natural forest from 1750 m to the forest limit at 2950 m (two lower zones to 2400 m, an upper zone above), scrub from 2950 m to the upper limit of vegetation at 3250 m",
+      "Cinnamomum burmannii, the Korintje (Kerinci) cassia, grown in the farms of Kerinci (Wikipedia, Cinnamomum burmannii)"
+    ]
+  }
+}

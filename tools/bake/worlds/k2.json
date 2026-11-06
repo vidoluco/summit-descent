@@ -1,0 +1,455 @@
+{
+  "id": "k2",
+  "name": "K2, parete sud-est e Godwin-Austen",
+  "names": {
+    "en": "K2, south-east face and Godwin-Austen",
+    "it": "K2, parete sud-est e Godwin-Austen"
+  },
+  "country": "PK",
+  "summit": {
+    "name": "K2",
+    "names": {
+      "en": "K2",
+      "it": "K2"
+    },
+    "elevation": 8611,
+    "lat": 35.8825,
+    "lon": 76.5133,
+    "searchRadius": 300
+  },
+  "dem": {
+    "tiles": [
+      "N35_E076"
+    ]
+  },
+  "descent": {
+    "kind": "dem",
+    "via": [
+      [
+        35.8799,
+        76.5181
+      ],
+      [
+        35.8781,
+        76.5219
+      ],
+      [
+        35.8756,
+        76.5217
+      ],
+      [
+        35.8732,
+        76.5226
+      ],
+      [
+        35.8709,
+        76.5243
+      ],
+      [
+        35.8684,
+        76.5257
+      ],
+      [
+        35.8663,
+        76.5277
+      ],
+      [
+        35.864,
+        76.5292
+      ],
+      [
+        35.8616,
+        76.5306
+      ],
+      [
+        35.8592,
+        76.5321
+      ],
+      [
+        35.8566,
+        76.5329
+      ],
+      [
+        35.854,
+        76.5334
+      ],
+      [
+        35.8516,
+        76.5327
+      ],
+      [
+        35.85,
+        76.5303
+      ],
+      [
+        35.8486,
+        76.5277
+      ],
+      [
+        35.8438,
+        76.5168
+      ],
+      [
+        35.8378,
+        76.5103
+      ],
+      [
+        35.8294,
+        76.5086
+      ],
+      [
+        35.8208,
+        76.5164
+      ],
+      [
+        35.8123,
+        76.5177
+      ],
+      [
+        35.8044,
+        76.5171
+      ],
+      [
+        35.79,
+        76.516
+      ],
+      [
+        35.775,
+        76.5145
+      ],
+      [
+        35.76,
+        76.513
+      ],
+      [
+        35.7416,
+        76.5119
+      ]
+    ],
+    "to": [
+      35.7405,
+      76.455
+    ],
+    "note": "summit, Bottleneck (8200 m), the Shoulder (Camp 4, 7750-7950 m), then the steepest-descent line of the DEM from the Shoulder: the couloir of the south-east face between the Abruzzi Spur (camps 1-3, 0.5-1 km east) and the south-south-east spur, onto the Godwin-Austen Glacier at about 5100 m; the race ends at the foot of the face above K2 Base Camp (the floor); the line goes on past the Gilkey Memorial and Broad Peak Base Camp to Concordia for the backdrop (DEM least-cost line through the via points; OSM maps no stream here)"
+  },
+  "osm": {
+    "bbox": [
+      35.7,
+      76.36,
+      35.92,
+      76.6
+    ],
+    "featuresBbox": [
+      35.837,
+      76.505,
+      35.888,
+      76.541
+    ],
+    "placeKinds": [
+      "village",
+      "hamlet",
+      "locality"
+    ],
+    "placeMaxDistance": 3000,
+    "glaciers": true,
+    "nameTags": [
+      "name:en",
+      "name"
+    ]
+  },
+  "short": {
+    "spine": {
+      "maxKm": 24,
+      "sigma": 110,
+      "pathSigma": 60
+    },
+    "width": {
+      "km": [
+        [
+          0,
+          4.5
+        ],
+        [
+          2.4,
+          4.6
+        ],
+        [
+          5.4,
+          5.2
+        ],
+        [
+          7.4,
+          5.8
+        ]
+      ],
+      "wiggle": 0.1
+    },
+    "floor": {
+      "window": 3000,
+      "slope": 0.04,
+      "after": 5000,
+      "note": "the Godwin-Austen below the face runs at 3-5 %: the first 3 km under 4 % start at K2 Base Camp (4962 m on the DEM, 4963 m by GPS), so the race ends at the foot of the face and no glacier flat is played"
+    },
+    "stages": {
+      "count": 3,
+      "length": 1800,
+      "gap": 100,
+      "perGroup": 2
+    },
+    "iceAbove": 4000
+  },
+  "requireShortcut": false,
+  "defaultBiome": "glacier",
+  "landmarks": [
+    {
+      "id": "summit-shoulder",
+      "alt": [
+        7700,
+        8700
+      ],
+      "biome": "highAlpine",
+      "names": [
+        [
+          "Vetta, Collo di bottiglia e Spalla",
+          "Summit, Bottleneck and Shoulder"
+        ]
+      ]
+    },
+    {
+      "id": "south-east-face",
+      "alt": [
+        5600,
+        7700
+      ],
+      "biome": "icefall",
+      "names": [
+        [
+          "Parete sud-est sotto la Spalla",
+          "South-east face below the Shoulder"
+        ],
+        [
+          "Parete sud-est, parte bassa",
+          "Lower south-east face"
+        ]
+      ]
+    },
+    {
+      "id": "face-foot",
+      "alt": [
+        4980,
+        5600
+      ],
+      "biome": "icefall",
+      "names": [
+        [
+          "Piede della parete sud-est",
+          "Foot of the south-east face"
+        ]
+      ]
+    },
+    {
+      "id": "godwin-austen",
+      "alt": [
+        4550,
+        4980
+      ],
+      "biome": "moraine",
+      "names": [
+        [
+          "Godwin-Austen verso Concordia",
+          "Godwin-Austen towards Concordia"
+        ],
+        [
+          "Godwin-Austen sotto il Broad Peak",
+          "Godwin-Austen below Broad Peak"
+        ]
+      ]
+    }
+  ],
+  "biomes": {
+    "highAlpine": {
+      "palette": [
+        "snow",
+        "ice",
+        "rock",
+        "crevasse-blue"
+      ],
+      "bank": 1.0,
+      "bankW": 16
+    },
+    "icefall": {
+      "palette": [
+        "seracs",
+        "ice",
+        "snow",
+        "crevasse-blue"
+      ],
+      "bank": 1.2,
+      "bankW": 14
+    },
+    "glacier": {
+      "palette": [
+        "ice",
+        "snow",
+        "crevasse-blue",
+        "moraine"
+      ],
+      "bank": 1.0,
+      "bankW": 18
+    },
+    "moraine": {
+      "palette": [
+        "moraine",
+        "scree",
+        "ice",
+        "rock"
+      ],
+      "bank": 1.2,
+      "bankW": 16
+    }
+  },
+  "animals": {
+    "perStage": 5,
+    "kinds": {
+      "chough": {
+        "alt": [
+          3500,
+          8200
+        ],
+        "off": [
+          1.5,
+          4.5
+        ],
+        "bird": true,
+        "max": 2,
+        "note": "alpine chough Pyrrhocorax graculus: breeds 3500-5000 m in the Himalaya, seen following climbers at 8200 m on Everest"
+      },
+      "lammergeier": {
+        "alt": [
+          3000,
+          7500
+        ],
+        "off": [
+          12,
+          30
+        ],
+        "bird": true,
+        "max": 1,
+        "note": "bearded vulture Gypaetus barbatus: seen at 7300-7500 m in the Himalaya; CKNP: above the Baltoro and at Concordia"
+      },
+      "siberian-ibex": {
+        "alt": [
+          3000,
+          5000
+        ],
+        "off": [
+          2.5,
+          6
+        ],
+        "max": 3,
+        "note": "Siberian (Himalayan) ibex Capra sibirica: CKNP 3000-5000 m"
+      },
+      "snow-leopard": {
+        "alt": [
+          3000,
+          5000
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1,
+        "note": "snow leopard Panthera uncia: CKNP 3000-5000 m, every major drainage"
+      },
+      "himalayan-brown-bear": {
+        "alt": [
+          3500,
+          4500
+        ],
+        "off": [
+          3,
+          7
+        ],
+        "max": 1,
+        "note": "Ursus arctos isabellinus: CKNP above 3500 m on meadows; the played stages are glacier above 4860 m, so it does not spawn"
+      }
+    }
+  },
+  "placesFallback": [
+    {
+      "name": "Bottleneck",
+      "lat": 35.8799,
+      "lon": 76.5181
+    },
+    {
+      "name": "Shoulder (Camp 4)",
+      "lat": 35.8781,
+      "lon": 76.5219
+    },
+    {
+      "name": "K2 Base Camp",
+      "lat": 35.8345,
+      "lon": 76.5093
+    },
+    {
+      "name": "Gilkey Memorial",
+      "lat": 35.831,
+      "lon": 76.5035
+    },
+    {
+      "name": "Broad Peak Base Camp",
+      "lat": 35.8044,
+      "lon": 76.5171
+    },
+    {
+      "name": "Concordia",
+      "lat": 35.7416,
+      "lon": 76.5119
+    }
+  ],
+  "finish": {
+    "names": {
+      "it": "Ghiacciaio Godwin-Austen ai piedi del K2",
+      "en": "Godwin-Austen Glacier at the foot of K2"
+    }
+  },
+  "look": {
+    "treeline": null,
+    "treeSpecies": [],
+    "ground": [
+      {
+        "type": "moraine",
+        "alt": [
+          4700,
+          5080
+        ]
+      },
+      {
+        "type": "glacier",
+        "alt": [
+          4700,
+          8000
+        ]
+      },
+      {
+        "type": "rock",
+        "alt": [
+          5000,
+          8611
+        ]
+      },
+      {
+        "type": "snow",
+        "alt": [
+          5150,
+          8611
+        ]
+      }
+    ],
+    "waterType": "glacial",
+    "sources": [
+      "docs/mountains/k2.md: every stage is on ice (OSM glacier outlines, Godwin Austen Glacier), medial moraines on the Godwin-Austen, no vegetation on the course",
+      "Commons, View from K2 of Godwin Austin Glacier.jpg (2017): the upper Godwin-Austen under the face is white snow-covered ice; its grey medial moraines start toward K2 Base Camp (4963 m)"
+    ]
+  }
+}
